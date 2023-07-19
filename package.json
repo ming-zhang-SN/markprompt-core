@@ -18,5 +18,8 @@
     "build": "tsc --build --clean && tsc --build",
     "dev": "tsc --build --clean && tsc --build --watch",
     "prepack": "tsc --build --clean && tsc --build"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6"
   }
 }
